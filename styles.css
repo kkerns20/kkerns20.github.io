@@ -1,0 +1,97 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #18212f;
+  background: #f7f8fa;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: min(900px, 90%);
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 7rem 0 4rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(3rem, 9vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.intro {
+  max-width: 680px;
+  margin: 1.5rem 0 0;
+  font-size: 1.3rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.links a {
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+}
+
+section {
+  padding: 2.5rem 0;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.7rem;
+}
+
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e2e6ec;
+  border-radius: 14px;
+  padding: 1.4rem;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.tools {
+  font-weight: 600;
+}
+
+footer {
+  padding: 3rem 0;
+  border-top: 1px solid #dfe3e8;
+  font-size: 0.9rem;
+}
